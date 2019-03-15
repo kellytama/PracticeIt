@@ -1,0 +1,14 @@
+//Write nested for loops to produce the following output:
+
+//    1
+//   2
+//  3
+// 4
+//5
+
+for (int i=1; i<=5; i++) { // prints 5 lines, each printing the number corresponding w loop iteration
+    for (int j=i; j <5; j++) { //nested loop, prints blank spaces
+        System.out.print(" ");
+    }
+    System.out.println(i);
+}
