@@ -1,0 +1,7 @@
+public static double fractionSum(int n){
+    double sum = 0;
+    for(int denominator = 1; denominator <= n; denominator++){
+        sum += 1.0/denominator;
+    }
+    return sum;
+}
