@@ -1,0 +1,15 @@
+//1 2 4 8
+//1 2 4 8 16 32 64 128 256 512 1024
+
+public static void main(String[] args) {
+    printPowersOf2 (3);
+    System.out.println();
+    printPowersOf2 (10);
+}
+
+public static void printPowersOf2(int exponent) {
+    for (int i = 0; i <= exponent; i++) {
+        System.out.print((int) Math.pow(2, i)+ " ");
+    }
+    
+}
